@@ -5,7 +5,7 @@ void FillMas(int[] arr)
 {
     for (int i=0; i<arr.Length; i++)
     {
-        int num = new Random().Next(10);
+        int num = new Random().Next(-10, 11);
         arr[i] = num;
     }
 }
